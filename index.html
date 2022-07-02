@@ -4,9 +4,159 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/effe18e135.js" crossorigin="anonymous"></script>
+  <title>Итоговое задание</title>
 </head>
 <body>
-  
+  <div class="container">
+    <header class="header">
+      <nav class="navigation">
+        <ul>
+          <li><a href="#" >навигация 1</a></li>
+          <li><a href="#">навигация 1</a></li>
+          <li><a href="#">навигация 1</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="section">
+        <div class="about">
+          <img class="about__img" src="avatar.jpg" alt="Фото профиля">
+          <div class="about__text">
+            <div class="text">
+              <h1>
+                Егор Самойлов
+              </h1>
+              <p>
+                На данный момент я один из самых перспективных работников Московского метрополитена в профессии "Машинист электропоезда". Не так давно захотел перейти в более спокойную сферу со стабильным графиком работы. И здесь я расскажу вам что кардинально изменить сферу деятельности не так страшно как кажется на первый взгляд.
+              </p>
+            </div>
+            <div class="about__contacts">
+              <h2>Мои социальные сети</h2>
+              <ul>
+                <li>
+                  <a href="https://www.google.ru/?hl=ru" target="_blank">
+                    <button>
+                      <i class="fa-brands fa-telegram"></i>
+                    </button></a>
+                  <span>Telegram</span> 
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <button>
+                      <i class="fa-brands fa-vk"></i>
+                    </button></a>
+                  <span>VK</span> 
+                </li>
+                <li>
+                  <a href="https://github.com/S-E-A-JS" target="_blank">
+                    <button>
+                      <i class="fa-brands fa-github"></i>
+                    </button></a>
+                  <span>Github</span> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="hobby">
+          <h2 class="hobby__title">
+            Мои хобби
+          </h2>
+          <ul class="hobby__list">
+            <li>Мотоциклы</li>
+            <li>Кожевенное ремесло</li>
+            <li>Фитнес</li>
+            <li>Сноуборд</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="work">
+          <h2 class="work__title">Опыт работы</h2>
+          <table>
+            <thead>
+              <th>Название компании</th>
+              <th>Должность</th>
+              <th>Период</th>
+            </thead>
+            <tr>
+              <td> <abbr title="Электродепо Измайлово">Московский метрополитен</abbr> </td>
+              <td>Машинист электропоезда</td>
+              <td>2017-сейчас</td>
+            </tr>
+            <tr>
+              <td> <abbr title="ЭнергоМонтажСтройИнжиниринг">ЭМСИ</abbr></td>
+              <td>Электрогазосварщик</td>
+              <td>2016-2017</td>
+            </tr>
+            <tr>
+              <td>Медтехника</td>
+              <td>Менеджер по продажам</td>
+              <td>2015-2016</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <div class="courses">
+          <h2>Пройденые курсы</h2>
+          <ul class="courses__list">
+            <li>
+              <span>Автор</span>
+              <span>Название</span>
+              <span>Протяженность</span>
+              <span>Пример навыков</span>
+            </li>
+            <li>
+              <span>Трепачёв Д.П.</span>
+              <span>Основы верстки</span>
+              <span>май-июнь 2022</span>
+              <span><a href="http://w84me.ru/">Результат</a></span>
+            </li>
+            <li>
+              <span>Владилен Минин</span>
+              <span>HTML CSS</span>
+              <span>июнь-июль 2022</span>
+              <span><a href="#">Результат</a></span>
+            </li>
+            <li>
+              <span>Владилен Минин</span>
+              <span>Junior Frontend Developer</span>
+              <span>июнь 2022 - настоящее время</span>
+              <span><a href="#">Результат</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="form">
+          <form action="">
+            <label>
+              Ваше имя:
+              <input type="text" placeholder="Ваше имя">
+            </label>
+            <label>
+              Ваш email:
+              <input type="email" placeholder="Ваш email">
+            </label>
+            <label>
+              Ваше сообщение:
+              <textarea class="form__textarea" style="resize: none;" name="message" cols="50" rows="5" placeholder="Ваше сообщение"></textarea>
+            </label>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить форму</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
 </body>
 </html>
